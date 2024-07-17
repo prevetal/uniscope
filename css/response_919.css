@@ -1,0 +1,427 @@
+@media print,
+(max-width: 919px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size: 14px;
+        --font_size_title: 34px;
+    }
+
+
+    .wrap .bg_img
+    {
+        top: 220px;
+        right: -308px;
+        left: auto;
+    }
+
+
+    .wrap .bg_img2
+    {
+        display: none;
+    }
+
+
+    .wrap .bg_img3
+    {
+        top: 1880px;
+        right: -248px;
+    }
+
+
+    .cont
+    {
+        padding: 0 15px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 15px;
+    }
+
+
+    .is-compact .fancybox__content > .f-button.is-close-btn
+    {
+        top: 14px;
+        right: 14px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        min-height: 80px;
+        padding: 19px 63px 19px 18px;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 16px;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        right: 6px;
+    }
+
+
+    .accordion_item .data
+    {
+        font-size: 16px;
+
+        padding: 36px 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        height: 26px;
+    }
+
+
+    header .consult_btn
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 30px;
+    }
+
+
+    .block_head .title br
+    {
+        display: none;
+    }
+
+    .block_head .title br.mob
+    {
+        display: block;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: 16px;
+
+        margin-top: 14px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *,
+    .form .columns > *.width1of3,
+    .form .columns > *.width2of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .form .line
+    {
+        margin-bottom: 16px;
+    }
+
+
+    .form .agree
+    {
+        padding: 9px 0;
+    }
+
+
+    .form .field + .field
+    {
+        margin-top: 9px;
+    }
+
+
+    .form .submit
+    {
+        padding: 0;
+    }
+
+
+    .form .submit_btn
+    {
+        height: 56px;
+    }
+
+
+
+    /*-----------------
+        Quike buy sell
+    -----------------*/
+    .quike_buy_sell
+    {
+        padding-top: 40px;
+    }
+
+
+    .quike_buy_sell .from .method_info,
+    .quike_buy_sell .to .method_info
+    {
+        margin-top: 31px;
+    }
+
+
+    .quike_buy_sell .from .methods,
+    .quike_buy_sell .to .methods
+    {
+        margin-bottom: -7px;
+        margin-left: -7px;
+    }
+
+
+    .quike_buy_sell .from .methods > *,
+    .quike_buy_sell .to .methods > *
+    {
+        width: calc(33.333% - 7px);
+        margin-bottom: 7px;
+        margin-left: 7px;
+    }
+
+
+    .quike_buy_sell .from .methods .btn,
+    .quike_buy_sell .to .methods .btn
+    {
+        padding: 6px 4px;
+    }
+
+
+    .quike_buy_sell .from .methods .icon,
+    .quike_buy_sell .to .methods .icon
+    {
+        margin-right: 4px;
+    }
+
+
+    .quike_buy_sell .rate .val .input
+    {
+        padding-left: 18px;
+    }
+
+
+    .quike_buy_sell .rate .val .currency
+    {
+        min-width: 100px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order .text
+    {
+        font-size: 16px;
+
+        margin-top: 30px;
+        padding: 28px 18px;
+    }
+
+
+
+    /*------------
+        About
+    ------------*/
+    .about .text,
+    .about .text.full_w
+    {
+        font-size: 16px;
+
+        padding: 36px 20px;
+    }
+
+
+    .about .image
+    {
+        height: 308px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .bg
+    {
+        top: 128px;
+    }
+
+
+    .FAQ .bg
+    {
+        max-width: 80%;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        font-size: 16px;
+    }
+
+
+    footer .col,
+    footer .requisites,
+    footer .location,
+    footer .phone,
+    footer .email
+    {
+        width: 100%;
+    }
+
+
+    footer .logo img
+    {
+        height: 26px;
+    }
+
+
+    footer .copyright
+    {
+        margin-top: 31px;
+    }
+
+
+
+    footer .requisites > *
+    {
+        width: 100%;
+    }
+
+
+    footer .requisites > * + *
+    {
+        margin-top: 14px;
+        margin-left: 0;
+    }
+
+
+
+    footer .location
+    {
+        display: block;
+
+        margin-top: 35px;
+    }
+
+
+
+    footer .phone
+    {
+        display: flex;
+
+        margin-top: 14px;
+    }
+
+
+
+    footer .email
+    {
+        margin-top: 14px;
+    }
+
+
+
+    footer .links
+    {
+        margin-top: 35px;
+    }
+
+
+    footer .links > *
+    {
+        width: 100%;
+    }
+
+
+    footer .links > * + *
+    {
+        margin-top: 14px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 63px 15px;
+    }
+
+
+    .modal_title
+    {
+        font-size: 30px;
+    }
+
+
+    .modal_desc
+    {
+        font-size: 14px;
+
+        margin-top: 14px;
+    }
+
+
+    .modal_desc br
+    {
+        display: none;
+    }
+
+
+    .modal .form
+    {
+        margin-top: 24px;
+    }
+
+
+
+    .modal.success
+    {
+        height: 366px;
+    }
+
+
+    .modal.success .modal_desc
+    {
+        margin-top: 14px;
+    }
+}

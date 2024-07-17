@@ -1,0 +1,108 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .wrap .bg_img
+    {
+        top: 152px;
+
+        margin-left: -992px;
+
+        transform: scale(.95);
+    }
+
+
+    .wrap .bg_img2
+    {
+        top: -40px;
+
+        margin-right: -992px;
+
+        transform: scale(.8);
+    }
+
+
+    .wrap .bg_img3
+    {
+        top: 1100px;
+
+        margin-right: -900px;
+
+        transform: scale(.9);
+    }
+
+
+    .cont
+    {
+        max-width: 1208px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding-right: 115px;
+        padding-left: 33px;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        right: 34px;
+    }
+
+
+    .accordion_item .data
+    {
+        padding: 36px 34px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order .text
+    {
+        padding: 35px;
+    }
+
+
+
+    /*------------
+        About
+    ------------*/
+    .about .text,
+    .about .text.full_w
+    {
+        padding: 36px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        width: 1160px;
+        padding: 58px 52px;
+    }
+
+
+    .modal_desc
+    {
+        margin-top: 24px;
+    }
+
+
+    .modal.success .modal_desc
+    {
+        margin-top: 18px;
+    }
+}

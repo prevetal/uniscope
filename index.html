@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Adapting the page for mobile devices -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Prohibition of phone number recognition -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Page title -->
+		<title>Заголовок страницы</title>
+
+		<!-- Meta description -->
+		<meta name="description" content="">
+
+		<!-- Meta Keywords -->
+		<meta name="keywords" content="">
+
+		<!-- Changing the color of the mobile browser panel -->
+		<meta name="msapplication-TileColor" content="#6647C3">
+		<meta name="theme-color" content="#6647C3">
+
+		<!-- Connecting fonts from Google -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+		<!-- Connecting style files -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.5/build/css/intlTelInput.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)" async>
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_919.css" media="print, (max-width: 919px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<div class="cont row">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<button class="consult_btn modal_btn" data-modal="order_modal">Получить консультацию</button>
+					</div>
+				</header>
+
+
+				<section class="quike_buy_sell block">
+					<div class="cont">
+						<div class="block_head center animate">
+							<div class="title"><span>Быстрая<br class="mob"> покупка/продажа</span><br> криптовалют</div>
+						</div>
+
+						<div class="row">
+							<div class="from">
+								<div class="title">Вы продаете</div>
+
+								<div class="methods">
+									<div><button class="btn coin_btn active" data-info=".method1_info">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_method_coin"></use></svg>
+										<span>Coin</span>
+									</button></div>
+
+									<div><button class="btn bank_btn" data-info=".method2_info">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_method_bank"></use></svg>
+										<span>Bank</span>
+									</button></div>
+
+									<div><button class="btn cash_btn" data-info=".method3_info">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_method_cash"></use></svg>
+										<span>Cash</span>
+									</button></div>
+								</div>
+
+								<div class="method_info method1_info" style="display: block;">
+									<div class="tokens modal_cont">
+										<button class="btn mini_modal_btn" data-modal-id="#tokens_from_modal">
+											<div>
+												<div class="icon">
+													<img src="images/usdt_logo.png" alt="" loading="lazy">
+												</div>
+
+												<span>USDT (TRC20)</span>
+											</div>
+
+											<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+										</button>
+
+										<div class="mini_modal" id="tokens_from_modal">
+											<div class="scroll">
+												<div class="btn">
+													<div class="icon">
+														<img src="images/usdt_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>USDT (TRC20)</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bitcoin_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Bitcoin (BEP20)</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/ethereum_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Ethereum</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/usdcoin_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>USDcoin</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/dai_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>DAI</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="method_info method2_info">
+									<div class="banks modal_cont">
+										<button class="btn mini_modal_btn" data-modal-id="#banks_from_modal">
+											<div>
+												<div class="icon">
+													<img src="images/bank_sber_logo.png" alt="" loading="lazy">
+												</div>
+
+												<span>СбербанкОнлайн</span>
+											</div>
+
+											<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+										</button>
+
+										<div class="mini_modal" id="banks_from_modal">
+											<div class="scroll">
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_sber_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>СбербанкОнлайн</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_tinkoff_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Тинькофф</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_raifaisen_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Райффайзен</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_alfa_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>АльфаБанк</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_vtb_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>ВТБ</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_standart_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Русский Стандарт</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_avangard_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Авангард</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_promsvyaz_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Промсвязьбанк</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_sber_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>СбербанкОнлайн</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_tinkoff_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Тинькофф</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_raifaisen_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Райффайзен</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_alfa_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>АльфаБанк</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_vtb_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>ВТБ</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_standart_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Русский Стандарт</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_avangard_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Авангард</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_promsvyaz_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Промсвязьбанк</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="method_info method3_info">
+									<div class="cash modal_cont">
+										<button class="btn mini_modal_btn" data-modal-id="#cash_from_modal">
+											<div>
+												<span>₽ Наличные RUB</span>
+											</div>
+
+											<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+										</button>
+
+										<div class="mini_modal" id="cash_from_modal">
+											<div class="scroll">
+												<div class="btn">
+													<span>₽ Наличные RUB</span>
+												</div>
+
+												<div class="btn">
+													<span>$ Наличные USD</span>
+												</div>
+
+												<div class="btn">
+													<span>€ Наличные EUR</span>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="city modal_cont">
+										<button class="btn mini_modal_btn" data-modal-id="#cash_city_from_modal">
+											<div>
+												<span>Выберите город</span>
+											</div>
+
+											<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+										</button>
+
+										<div class="mini_modal" id="cash_city_from_modal">
+											<div class="scroll">
+												<div class="country">
+													<div class="name">
+														<span>Россия</span>
+
+														<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+													</div>
+
+													<div class="sub">
+														<div class="btn">Москва</div>
+														<div class="btn">Санкт-Петербург</div>
+														<div class="btn">Казань</div>
+														<div class="btn">Новосибирск</div>
+														<div class="btn">Симферополь, Крым</div>
+														<div class="btn">Краснодар</div>
+														<div class="btn">Екатеринбург</div>
+														<div class="btn">Челябинск</div>
+														<div class="btn">Оренбург</div>
+														<div class="btn">Уфа</div>
+														<div class="btn">Сочи</div>
+														<div class="btn">Ростов на Дону</div>
+														<div class="btn">Самара</div>
+														<div class="btn">Иркутск</div>
+														<div class="btn">Омск</div>
+														<div class="btn">Пермь</div>
+														<div class="btn">Ижевск</div>
+														<div class="btn">Воронеж</div>
+														<div class="btn">Калининград</div>
+													</div>
+												</div>
+
+												<div class="country">
+													<div class="name">
+														<span>Турция</span>
+
+														<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+													</div>
+
+													<div class="sub">
+														<div class="btn">Пункт 1</div>
+														<div class="btn">Пункт 2</div>
+													</div>
+												</div>
+
+												<div class="btn"><span>Грузия, Тбилиси</span></div>
+												<div class="btn"><span>Бали</span></div>
+												<div class="btn"><span>Армения, Ереван</span></div>
+												<div class="btn"><span>Кипр</span></div>
+												<div class="btn"><span>Тайланд</span></div>
+												<div class="btn"><span>ОАЭ, Дубай</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="rate">
+								<div class="title">Обмен по курсу</div>
+
+								<div class="field up">
+									<div class="label">1 USDT = 90.3762 SBERRUB</div>
+
+									<div class="val">
+										<input type="text" name="" value="441.7567" class="input">
+
+										<div class="currency">USDTTRC20</div>
+									</div>
+
+									<button class="refresh_btn">Обновить</button>
+								</div>
+
+								<button class="replace_btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_replace"></use></svg>
+								</button>
+
+								<div class="field down">
+									<div class="val">
+										<input type="text" name="" value="39999.2138" class="input" readonly>
+
+										<div class="currency">SBERRUB</div>
+									</div>
+
+									<div class="exp">Курс фиксируется</div>
+								</div>
+							</div>
+
+
+							<div class="to">
+								<div class="title">Вы Получаете</div>
+
+								<div class="methods">
+									<div><button class="btn coin_btn disabled" data-info=".method1_info">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_method_coin"></use></svg>
+										<span>Coin</span>
+									</button></div>
+
+									<div><button class="btn bank_btn active" data-info=".method2_info">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_method_bank"></use></svg>
+										<span>Bank</span>
+									</button></div>
+
+									<div><button class="btn cash_btn" data-info=".method3_info">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_method_cash"></use></svg>
+										<span>Cash</span>
+									</button></div>
+								</div>
+
+								<div class="method_info method1_info">
+									<div class="tokens modal_cont">
+										<button class="btn mini_modal_btn" data-modal-id="#tokens_to_modal">
+											<div>
+												<div class="icon">
+													<img src="images/usdt_logo.png" alt="" loading="lazy">
+												</div>
+
+												<span>USDT (TRC20)</span>
+											</div>
+
+											<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+										</button>
+
+										<div class="mini_modal" id="tokens_to_modal">
+											<div class="scroll">
+												<div class="btn">
+													<div class="icon">
+														<img src="images/usdt_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>USDT (TRC20)</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bitcoin_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Bitcoin (BEP20)</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/ethereum_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Ethereum</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/usdcoin_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>USDcoin</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/dai_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>DAI</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="method_info method2_info" style="display: block;">
+									<div class="banks modal_cont">
+										<button class="btn mini_modal_btn" data-modal-id="#banks_to_modal">
+											<div>
+												<div class="icon">
+													<img src="images/bank_sber_logo.png" alt="" loading="lazy">
+												</div>
+
+												<span>СбербанкОнлайн</span>
+											</div>
+
+											<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+										</button>
+
+										<div class="mini_modal" id="banks_to_modal">
+											<div class="scroll">
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_sber_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>СбербанкОнлайн</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_tinkoff_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Тинькофф</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_raifaisen_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Райффайзен</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_alfa_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>АльфаБанк</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_vtb_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>ВТБ</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_standart_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Русский Стандарт</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_avangard_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Авангард</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_promsvyaz_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Промсвязьбанк</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_sber_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>СбербанкОнлайн</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_tinkoff_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Тинькофф</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_raifaisen_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Райффайзен</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_alfa_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>АльфаБанк</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_vtb_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>ВТБ</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_standart_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Русский Стандарт</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_avangard_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Авангард</span>
+												</div>
+
+												<div class="btn">
+													<div class="icon">
+														<img src="images/bank_promsvyaz_logo.png" alt="" loading="lazy">
+													</div>
+
+													<span>Промсвязьбанк</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div class="method_info method3_info">
+									<div class="cash modal_cont">
+										<button class="btn mini_modal_btn" data-modal-id="#cash_to_modal">
+											<div>
+												<span>₽ Наличные RUB</span>
+											</div>
+
+											<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+										</button>
+
+										<div class="mini_modal" id="cash_to_modal">
+											<div class="scroll">
+												<div class="btn">
+													<span>₽ Наличные RUB</span>
+												</div>
+
+												<div class="btn">
+													<span>$ Наличные USD</span>
+												</div>
+
+												<div class="btn">
+													<span>€ Наличные EUR</span>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="city modal_cont">
+										<button class="btn mini_modal_btn" data-modal-id="#cash_city_to_modal">
+											<div>
+												<span>Выберите город</span>
+											</div>
+
+											<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+										</button>
+
+										<div class="mini_modal" id="cash_city_to_modal">
+											<div class="scroll">
+												<div class="country">
+													<div class="name">
+														<span>Россия</span>
+
+														<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+													</div>
+
+													<div class="sub">
+														<div class="btn">Москва</div>
+														<div class="btn">Санкт-Петербург</div>
+														<div class="btn">Казань</div>
+														<div class="btn">Новосибирск</div>
+														<div class="btn">Симферополь, Крым</div>
+														<div class="btn">Краснодар</div>
+														<div class="btn">Екатеринбург</div>
+														<div class="btn">Челябинск</div>
+														<div class="btn">Оренбург</div>
+														<div class="btn">Уфа</div>
+														<div class="btn">Сочи</div>
+														<div class="btn">Ростов на Дону</div>
+														<div class="btn">Самара</div>
+														<div class="btn">Иркутск</div>
+														<div class="btn">Омск</div>
+														<div class="btn">Пермь</div>
+														<div class="btn">Ижевск</div>
+														<div class="btn">Воронеж</div>
+														<div class="btn">Калининград</div>
+													</div>
+												</div>
+
+												<div class="country">
+													<div class="name">
+														<span>Турция</span>
+
+														<svg class="arr"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+													</div>
+
+													<div class="sub">
+														<div class="btn">Пункт 1</div>
+														<div class="btn">Пункт 2</div>
+													</div>
+												</div>
+
+												<div class="btn"><span>Грузия, Тбилиси</span></div>
+												<div class="btn"><span>Бали</span></div>
+												<div class="btn"><span>Армения, Ереван</span></div>
+												<div class="btn"><span>Кипр</span></div>
+												<div class="btn"><span>Тайланд</span></div>
+												<div class="btn"><span>ОАЭ, Дубай</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="order block">
+					<div class="cont">
+						<div class="block_head center animate">
+							<div class="title">Введите свои данные</div>
+						</div>
+
+						<form action="" class="form">
+							<div class="columns">
+								<div class="line width1of3">
+									<div class="label">ФИО получателя:</div>
+
+									<div class="field">
+										<input type="text" name="" value="" class="input" placeholder="Ваше ФИО">
+									</div>
+								</div>
+
+								<div class="line width1of3">
+									<div class="label">Номер телефона:</div>
+
+									<div class="field">
+										<input type="tel" name="" value="" class="input" inputmode="tel">
+									</div>
+								</div>
+
+								<div class="line width1of3">
+									<div class="label">Email:</div>
+
+									<div class="field">
+										<input type="email" name="" value="" class="input" placeholder="Ваша почта">
+									</div>
+								</div>
+							</div>
+
+							<div class="line agree">
+								<div class="field">
+									<label class="checkbox">
+										<input type="checkbox" name="agree" checked>
+
+										<div class="check">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+										</div>
+
+										<div>Я ознакомлен(-на) и согласен(-на) с правилами сервиса</div>
+									</label>
+								</div>
+
+								<div class="field">
+									<label class="checkbox">
+										<input type="checkbox" name="agree2" checked>
+
+										<div class="check">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+										</div>
+
+										<div>Согласен(-на) с политикой KYC и правилами AML-проверок</div>
+									</label>
+								</div>
+							</div>
+
+							<div class="submit">
+								<button type="submit" class="submit_btn">Оформить заявку</button>
+							</div>
+						</form>
+
+						<div class="text">
+							<p>Мы проводим AML-проверку средств клиентов для предотвращения нарушений закона. Если в вашей транзакции будут обнаружены нарушения, обменный пункт будет вынужден приостановить обменную операцию, до проведения полной проверки. Возврат средств будет осуществлен после проверки. Подробная информация об условиях обмена и количестве подтверждений транзакции сетью находится на странице Правила сайта.</p>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="about block">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title"><span>Помогаем вывести, продать</span><br> и купить криптовалюту за рубли</div>
+						</div>
+
+						<div class="row">
+							<div class="text">UniScope — финансовый ассистент, который создан упрощать международные переводы криптовалют и фиатных средств в любую точку мира. С 2018 года наша команда объединяет безопасность, конфиденциальность и качество обслуживания в одном сервисе.</div>
+
+							<div class="image animate">
+								<img src="images/about_img.jpg" alt="" loading="lazy">
+							</div>
+
+							<div class="text full_w animate">Мы создали понятную и простую в использовании платформу с минимумом шагов и адекватными комиссиями, чтобы ей мог воспользоваться каждый. В наших правилах проводить сделку и предоставлять оплату за 3 часа из рук в руки в двух офисах одновременно.</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="FAQ block accordion animate">
+					<div class="cont">
+						<div class="accordion_item">
+							<div class="head">
+								<div class="title">Как произвести обмен</div>
+
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="data">
+								Пошаговое руководство по обмену криптовалют на вашем сервисе, начиная от регистрации/авторизации и заканчивая получением обменной суммы. На странице «Купить или Продать криптовалюту» вы можете выбрать тип валюты для проведения операции, а также способ получения и отправки активов (наличными, безналичными фиатными средствами или криптовалютой). Далее калькулятор рассчитает курс и комиссию, а вы сможете отправить заявку на операцию, нажав на кнопку «Оставить заявку». С вами сразу же свяжется менеджер для уточнения деталей и после получения средств произведет оплату другой стороне сделки. Получить наличные можно в одном из наших офисов или через курьера, а безналичный расчет — в нашем офисе.
+							</div>
+						</div>
+
+						<div class="accordion_item">
+							<div class="head">
+								<div class="title">Наши услуги</div>
+
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="data">
+								Пары валют для обмена. Мы работаем с фиатными валютами (доллары, евро, рубли и другие местные валюты) и криптовалютами (USDT, BTC, ETH и т. д.). Каждая транзакция проходит проверку нашей службой безопасности.
+							</div>
+						</div>
+
+						<div class="accordion_item">
+							<div class="head">
+								<div class="title">Комиссии и курсы</div>
+
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="data">
+								На нашей площадке всегда представлены актуальные и фиксированные курсы валют. С любыми вопросами касательно итоговой суммы можно обратиться к персональному менеджеру, продолжив диалог или создав новую заявку.
+							</div>
+						</div>
+
+						<div class="accordion_item">
+							<div class="head">
+								<div class="title">Поддержка пользователей</div>
+
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="data">
+								Наша служба поддержки и персональный менеджер всегда готовы обсудить любой вопрос сразу после получения заявки на покупку, продажу или вывод криптовалюты.
+							</div>
+						</div>
+
+						<div class="accordion_item">
+							<div class="head">
+								<div class="title">Прозрачность всех участников</div>
+
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="data">
+								Обе стороны сделки могут находиться в офисах при обсуждении и проведении операции. Персональный менеджер единовременно согласует условия, выгодные каждому участнику.
+							</div>
+						</div>
+
+						<div class="accordion_item">
+							<div class="head">
+								<div class="title">Безопасные транзакции</div>
+
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="data">
+								Мы работаем только с чистой, законно используемой криптовалютой. Все транзакции осуществляются с задействованием системы AML (Anti-Money Laundering) и процедуры KYC (Know Your Customer). Благодаря этому активы находятся под надежной защитой. А мы всегда находимся на связи, чтобы рассказать обо всех деталях операций по выводу криптовалют и подтвердить чистоту транзакций.
+							</div>
+						</div>
+					</div>
+
+					<img src="images/bg_FAQ.png" alt="" class="bg" loading="lazy">
+				</section>
+
+
+				<section class="order block">
+					<div class="cont">
+						<div class="block_head center">
+							<div class="title">Остались вопросы?</div>
+
+							<div class="desc">Оставьте свои контактные данные, мы с вами свяжемся и ответим на все интересующие вопросы.</div>
+						</div>
+
+						<form action="" class="form">
+							<div class="columns">
+								<div class="line width1of3">
+									<div class="label">ФИО получателя:</div>
+
+									<div class="field">
+										<input type="text" name="" value="" class="input" placeholder="Ваше ФИО">
+									</div>
+								</div>
+
+								<div class="line width1of3">
+									<div class="label">Номер телефона:</div>
+
+									<div class="field">
+										<input type="tel" name="" value="" class="input" inputmode="tel">
+									</div>
+								</div>
+
+								<div class="line width1of3">
+									<div class="label">Email:</div>
+
+									<div class="field">
+										<input type="email" name="" value="" class="input" placeholder="Ваша почта">
+									</div>
+								</div>
+							</div>
+
+							<div class="line agree">
+								<div class="field">
+									<label class="checkbox">
+										<input type="checkbox" name="agree" checked>
+
+										<div class="check">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+										</div>
+
+										<div>Отправляя форму я соглашаюсь с политикой конфиденциальности сайта</div>
+									</label>
+								</div>
+							</div>
+
+							<div class="submit">
+								<button type="submit" class="submit_btn">Отправить</button>
+							</div>
+						</form>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="line"></div>
+
+					<div class="col">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="copyright">Все права защищены &copy; 2024</div>
+					</div>
+
+					<div class="links">
+						<div><a href="/">Политика конфиденциальности</a></div>
+
+
+						<div><a href="/">Пользовательское соглашение</a></div>
+					</div>
+
+					<div class="requisites">
+						<div>ОГРН 5177746375318</div>
+
+						<div>ИНН 7720409382</div>
+					</div>
+
+					<div class="location">Пресненская набережная 6</div>
+
+					<div class="phone">
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_phone"></use></svg>
+
+						<a href="tel:89015055810">8(901)-505-58-10</a>
+					</div>
+
+					<div class="email">
+						<div>Email <a href="mailto:info@uniscope-company.com">info@uniscope-company.com</a></div>
+					</div>
+				</div>
+			</footer>
+
+
+			<img src="images/bg_img1.png" alt="" loading="lazy" class="bg_img">
+			<img src="images/bg_img2.png" alt="" loading="lazy" class="bg_img2">
+			<img src="images/bg_img3.png" alt="" loading="lazy" class="bg_img3">
+		</div>
+
+
+		<section class="modal" id="order_modal">
+			<div class="modal_title">Есть вопросы?</div>
+
+			<div class="modal_desc">Оставьте свои контактные данные, мы с вами свяжемся<br> и ответим на все интересующие вопросы.</div>
+
+			<form action="" class="form">
+				<div class="columns">
+					<div class="line width1of3">
+						<div class="label">ФИО получателя:</div>
+
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Ваше ФИО">
+						</div>
+					</div>
+
+					<div class="line width1of3">
+						<div class="label">Номер телефона:</div>
+
+						<div class="field">
+							<input type="tel" name="" value="" class="input" inputmode="tel">
+						</div>
+					</div>
+
+					<div class="line width1of3">
+						<div class="label">Email:</div>
+
+						<div class="field">
+							<input type="email" name="" value="" class="input" placeholder="Ваша почта">
+						</div>
+					</div>
+				</div>
+
+				<div class="line agree">
+					<div class="field">
+						<label class="checkbox">
+							<input type="checkbox" name="agree" checked>
+
+							<div class="check">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+							</div>
+
+							<div>Отправляя форму я соглашаюсь с политикой конфиденциальности сайта</div>
+						</label>
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal success" id="success_modal">
+			<div class="modal_title">Спасибо за заявку!</div>
+
+			<div class="modal_desc">Нащ менеджер свяжется с вами<br> в ближайшее время!</div>
+		</section>
+
+
+		<!-- Connecting javascript files -->
+		<script src="js/jquery-3.6.3.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/intl-tel-input@20.0.5/build/js/intlTelInput.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

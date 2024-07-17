@@ -1,0 +1,371 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .wrap .bg_img
+    {
+        top: 708px;
+        left: -260px;
+
+        margin-left: 0;
+
+        transform: scale(.6);
+    }
+
+
+    .wrap .bg_img2
+    {
+        top: 40px;
+        right: -308px;
+
+        margin-right: 0;
+
+        transform: scale(.6);
+    }
+
+
+    .wrap .bg_img3
+    {
+        top: 1548px;
+        right: -208px;
+
+        margin-right: 0;
+
+        transform: scale(.6);
+    }
+
+
+    .block
+    {
+        margin-bottom: 100px;
+    }
+
+
+    .cont
+    {
+        padding: 0 50px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 50px;
+    }
+
+
+
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head .title
+    {
+        font-size: 22px;
+    }
+
+
+    .accordion_item .data
+    {
+        font-size: 18px;
+
+        padding: 36px 70px 36px 34px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns
+    {
+        --form_columns_offset: 30px;
+    }
+
+
+    .form .line
+    {
+        margin-bottom: 26px;
+    }
+
+
+    .form .input
+    {
+        padding: 0 18px;
+    }
+
+
+    .form .submit_btn
+    {
+        height: 60px;
+    }
+
+
+
+    /*-----------------
+        Quike buy sell
+    -----------------*/
+    .quike_buy_sell
+    {
+        margin-bottom: 60px;
+        padding-top: 50px;
+    }
+
+
+    .quike_buy_sell .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+
+    .quike_buy_sell .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .quike_buy_sell .from,
+    .quike_buy_sell .to
+    {
+        padding: 28px 18px;
+
+        border-radius: 20px;
+    }
+
+
+    .quike_buy_sell .from .methods > *,
+    .quike_buy_sell .to .methods > *
+    {
+        width: calc(33.333% - 10px);
+    }
+
+
+    .quike_buy_sell .from .methods .btn,
+    .quike_buy_sell .to .methods .btn
+    {
+        justify-content: center;
+
+        width: 100%;
+    }
+
+
+    .quike_buy_sell .from .mini_modal_btn,
+    .quike_buy_sell .to .mini_modal_btn
+    {
+        width: 100%;
+    }
+
+
+
+    .quike_buy_sell .rate
+    {
+        padding: 30px 20px;
+
+        border-radius: 20px;
+    }
+
+
+    .quike_buy_sell .rate .title
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*-----------
+        Order
+    -----------*/
+    .order .text
+    {
+        font-size: 18px;
+
+        padding: 29px 33px;
+
+        border-radius: 20px;
+    }
+
+
+
+    /*------------
+        About
+    ------------*/
+    .about .row
+    {
+        margin-bottom: -20px;
+        margin-left: 0;
+    }
+
+
+    .about .row > *,
+    .about .text.full_w
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+
+
+    .about .text,
+    .about .text.full_w
+    {
+        font-size: 18px;
+
+        padding: 36px 34px;
+    }
+
+
+    .about .image
+    {
+        order: 3;
+
+        height: 274px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .bg
+    {
+        top: 24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 0 0 80px;
+    }
+
+
+    footer .line
+    {
+        margin-bottom: 78px;
+    }
+
+
+    footer .col,
+    footer .requisites,
+    footer .location,
+    footer .phone,
+    footer .email
+    {
+        width: calc(50% - 50px);
+    }
+
+
+    footer .logo img
+    {
+        height: 32px;
+    }
+
+
+
+    footer .links
+    {
+        display: flex;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        order: 5;
+
+        width: 100%;
+        margin-top: 34px;
+    }
+
+
+    footer .links > *
+    {
+        width: calc(50% - 50px);
+    }
+
+
+    footer .links > * + *
+    {
+        margin-top: 0;
+        margin-left: auto;
+    }
+
+
+
+    footer .requisites
+    {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+
+    footer .requisites > * + *
+    {
+        margin-top: 0;
+        margin-left: 40px;
+    }
+
+
+
+    footer .email
+    {
+        margin-top: -21px;
+        margin-left: auto;
+    }
+
+
+
+    footer .location,
+    footer .phone
+    {
+        display: none;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    .modal
+    {
+        padding: 71px 28px 84px;
+    }
+
+
+    .modal_desc
+    {
+        font-size: 18px;
+
+        margin-top: 16px;
+    }
+
+
+    .modal .form
+    {
+        margin-top: 30px;
+    }
+
+
+    .modal .form .columns
+    {
+        --form_columns_offset: 14px;
+    }
+}
